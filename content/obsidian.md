@@ -21,7 +21,7 @@ views:
       and:
         - or:
             - file.name == "obsidian-review"
-            - file.name == "obsidian-install"
+            - file.name == "pkm"
     sort:
       - property: file.name
         direction: DESC
