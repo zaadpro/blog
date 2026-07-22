@@ -1,23 +1,22 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: حسین فردمحمدی
+  pageTitle: بلاگ
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: fa-IR
-  baseUrl: ifard.ir
+  baseUrl:  zaadpro.github.io/blog
   ignorePatterns:
     - private
     - templates
     - .obsidian
   theme:
-    fontOrigin: local
-    cdnCaching: true
+    fontOrigin: googleFonts
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Vazirmatn
+      body: Vazirmatn
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -274,7 +273,7 @@ plugins:
   - source: github:fardm/quartz-clickable-images
     enabled: true
   - source: github:fardm/quartz-standalone-comments
-    enabled: true
+    enabled: false
     options:
       backendUrl: https://comments.hoseinfm.ir
       type: full
