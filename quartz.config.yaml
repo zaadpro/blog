@@ -282,7 +282,7 @@ plugins:
       position: afterBody
       priority: 100
   - source: github:fardm/quartz-standalone-comments
-    enabled: true
+    enabled: false
     options:
       backendUrl: https://comments.hoseinfm.ir
       type: recent
