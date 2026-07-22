@@ -2,7 +2,15 @@
 @use "./_card-view.scss";
 @use "./_ui.scss";
 @use "./my-callouts.scss";
-@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css");   
+
+// فونت وزیرمتن از jsdelivr (برای فایرفاکس)
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/fonts/webfonts/Vazirmatn[wght].woff2") format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 // ================ 01. THEME VARIABLES ================
 
